@@ -1,0 +1,11 @@
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\bin\Debug\Timetable Generator.exe.config
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\bin\Debug\Timetable Generator.exe
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\bin\Debug\Timetable Generator.pdb
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\bin\Debug\Timetable Generator.xml
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable Generator.vbprojResolveAssemblyReference.cache
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable_Generator.Form1.resources
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable_Generator.Resources.resources
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable Generator.vbproj.GenerateResource.Cache
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable Generator.exe
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable Generator.xml
+C:\Users\A\AppData\Local\Temporary Projects\Timetable Generator\obj\Debug\Timetable Generator.pdb
