@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,32 +20,34 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -54,7 +56,7 @@ Partial Class Form1
         '
         Me.Button1.FlatAppearance.BorderSize = 2
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(140, 364)
+        Me.Button1.Location = New System.Drawing.Point(393, 480)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(173, 89)
         Me.Button1.TabIndex = 0
@@ -65,7 +67,7 @@ Partial Class Form1
         '
         Me.Button2.FlatAppearance.BorderSize = 2
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(140, 519)
+        Me.Button2.Location = New System.Drawing.Point(622, 480)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(173, 89)
         Me.Button2.TabIndex = 1
@@ -75,6 +77,7 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Label3)
@@ -83,69 +86,25 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.TextBox4)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(500, 10)
+        Me.Panel1.Size = New System.Drawing.Size(1172, 10)
         Me.Panel1.TabIndex = 2
         '
-        'Panel2
+        'Label7
         '
-        Me.Panel2.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Controls.Add(Me.TextBox5)
-        Me.Panel2.Controls.Add(Me.Button6)
-        Me.Panel2.Controls.Add(Me.Button3)
-        Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Location = New System.Drawing.Point(0, 10)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(500, 10)
-        Me.Panel2.TabIndex = 3
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(827, 127)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(0, 13)
+        Me.Label7.TabIndex = 13
         '
-        'TextBox1
+        'Button5
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Location = New System.Drawing.Point(22, 170)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(178, 20)
-        Me.TextBox1.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 138)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(32, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Email"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(19, 218)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Password"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Location = New System.Drawing.Point(22, 250)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(178, 20)
-        Me.TextBox2.TabIndex = 2
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(22, 385)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(149, 27)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "Register"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button5.Location = New System.Drawing.Point(1097, 708)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 10
+        Me.Button5.Text = "Return"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -180,9 +139,9 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(19, 128)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(32, 13)
+        Me.Label4.Size = New System.Drawing.Size(55, 13)
         Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Email"
+        Me.Label4.Text = "Username"
         '
         'TextBox4
         '
@@ -193,31 +152,21 @@ Partial Class Form1
         Me.TextBox4.Size = New System.Drawing.Size(178, 20)
         Me.TextBox4.TabIndex = 5
         '
-        'Timer1
+        'Panel2
         '
-        Me.Timer1.Interval = 75
-        '
-        'Timer2
-        '
-        Me.Timer2.Interval = 75
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(425, 708)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 10
-        Me.Button5.Text = "Return"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(425, 698)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Return"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Panel2.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Controls.Add(Me.TextBox5)
+        Me.Panel2.Controls.Add(Me.Button6)
+        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.TextBox1)
+        Me.Panel2.Location = New System.Drawing.Point(0, 10)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1172, 10)
+        Me.Panel2.TabIndex = 3
         '
         'Label5
         '
@@ -237,18 +186,93 @@ Partial Class Form1
         Me.TextBox5.Size = New System.Drawing.Size(178, 20)
         Me.TextBox5.TabIndex = 6
         '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(1097, 698)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 23)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Return"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(22, 385)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(149, 27)
+        Me.Button3.TabIndex = 4
+        Me.Button3.Text = "Register"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(19, 218)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Password"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Location = New System.Drawing.Point(22, 250)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(178, 20)
+        Me.TextBox2.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(19, 138)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Username"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Location = New System.Drawing.Point(22, 170)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(178, 20)
+        Me.TextBox1.TabIndex = 0
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 75
+        '
+        'Timer2
+        '
+        Me.Timer2.Interval = 75
+        '
         'Timer3
         '
         '
         'Timer4
         '
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label6.Font = New System.Drawing.Font("Segoe Print", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(759, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(413, 64)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Electronic Timetable"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightCyan
-        Me.ClientSize = New System.Drawing.Size(500, 731)
+        Me.ClientSize = New System.Drawing.Size(1172, 731)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button2)
@@ -263,6 +287,7 @@ Partial Class Form1
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -288,4 +313,6 @@ Partial Class Form1
     Friend WithEvents Button6 As Button
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Timer4 As Timer
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class
