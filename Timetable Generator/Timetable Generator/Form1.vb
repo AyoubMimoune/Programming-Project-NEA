@@ -63,6 +63,8 @@ Public Class Form1
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If TextBox1.Text = "" Or TextBox2.Text = "" Or TextBox5.Text = "" Then
             MsgBox("Please enter the correct information")
+        ElseIf Textbox2.text != Textbox5.text Then
+            MsgBox("Your passwords do not match!")
         Else
             Try
                 Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\A\Documents\Database1.accdb;")
