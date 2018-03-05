@@ -82,7 +82,7 @@ Public Class Form1
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim uname As String = TextBox4.Text
-        Dim pword As String
+        Dim pword As String = TextBox3.Text
         Dim username As String = ""
         Dim pass As String = "Select password From Table1 where name= '" & uname & ""
         If TextBox4.Text = "" Or TextBox3.Text = "" Then
