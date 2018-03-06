@@ -39,13 +39,15 @@
         End If
         If ListBox1.Items.Contains(RadioButton1.Text) Then
             MsgBox("You have already picked your timetable")
-        Else
-            If RadioButton1.Checked = True Then
+        ElseIf Listbox1.Items.Contains(Radiobutton2.Text) Then
+            MsgBox("You have already picked your timetable")
+            
+        ElseIf RadioButton1.Checked = True Then
                 ListBox1.Items.Add(RadioButton1.Text)
             Else
                 ListBox1.Items.Add(RadioButton2.Text)
-            End If
         End If
+        
         ''''''''''''''''''''''''''''''''''''''' ADDING CHECKBOX TEXT TO LISTBOX
         For Each Control In Me.Controls
             If TypeOf Control Is CheckBox Then
