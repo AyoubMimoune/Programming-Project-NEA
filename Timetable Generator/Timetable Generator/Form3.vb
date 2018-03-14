@@ -12,6 +12,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Button1.BackColor = Color.Red
         Button1.Enabled = False
+        x = x + 1
         If (42 - (Form2.y * Form2.TextBox1.Text)) = x Then
             MsgBox("You have reached the limit")
             Label1.Visible = False
@@ -459,8 +460,16 @@
 
     Private Sub Button44_Click(sender As Object, e As EventArgs) Handles Button44.Click
 
-        Dim buttons() As Button = {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9, Button10, Button11, Button12, Button13, Button14, Button15, Button16, Button17, Button18,
-        Button19, Button20, Button21, Button22, Button23, Button24, Button25, Button26, Button27, Button28, Button29, Button30, Button31, Button32, Button33, Button34, Button35, Button36, Button37, Button38, Button39, Button40, Button41, Button42, Button7, Button8, Button9}
+        Dim buttons() As Button = {
+            Button1, Button2, Button3, Button4, Button5,
+            Button6, Button7, Button8, Button9, Button10, 
+            Button11, Button12, Button13, Button14, Button15, 
+            Button16, Button17, Button18,Button19, Button20, 
+            Button21, Button22, Button23, Button24, Button25, 
+            Button26, Button27, Button28, Button29, Button30, 
+            Button31, Button32, Button33, Button34, Button35, 
+            Button36, Button37, Button38, Button39, Button40, 
+            Button41, Button42, Button7, Button8, Button9}
         For i = 0 To 42
             buttons(i).ForeColor = Color.Black
             If buttons(i).BackColor = Color.Red Then
