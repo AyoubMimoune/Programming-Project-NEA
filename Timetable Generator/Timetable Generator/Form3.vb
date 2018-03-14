@@ -560,11 +560,6 @@
         Button43.Visible = True
         Label1.Visible = False
 
-
-
-
-
-
     End Sub
 
     Private Sub Button43_Click_1(sender As Object, e As EventArgs) Handles Button43.Click
