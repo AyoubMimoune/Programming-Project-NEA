@@ -1,0 +1,2 @@
+To run the program you need to locate to the \Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Timetable Generator.exe
+and place the database file in your documents folder.
