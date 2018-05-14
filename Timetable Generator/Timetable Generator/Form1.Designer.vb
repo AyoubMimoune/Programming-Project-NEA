@@ -48,6 +48,8 @@ Partial Class Form1
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -266,12 +268,30 @@ Partial Class Form1
         Me.Label6.TabIndex = 4
         Me.Label6.Text = "Electronic Timetable"
         '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(538, 605)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.TabIndex = 5
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(524, 628)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(134, 13)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "Insert Computer name here"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightCyan
         Me.ClientSize = New System.Drawing.Size(1172, 731)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
@@ -315,4 +335,6 @@ Partial Class Form1
     Friend WithEvents Timer4 As Timer
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label8 As Label
 End Class

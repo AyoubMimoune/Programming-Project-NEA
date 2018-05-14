@@ -53,3 +53,17 @@ C:\Users\A\Documents\Timetable Generator\Timetable Generator\obj\Debug\Timetable
 C:\Users\A\Documents\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.exe
 C:\Users\A\Documents\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.xml
 C:\Users\A\Documents\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.pdb
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Timetable Generator.exe.config
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.exe
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.xml
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.pdb
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.vbprojResolveAssemblyReference.cache
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable_Generator.Form1.resources
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable_Generator.Form2.resources
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable_Generator.Form3.resources
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable_Generator.Resources.resources
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\obj\Debug\Timetable Generator.vbproj.GenerateResource.Cache
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Database1.accdb
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Timetable Generator.exe
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Timetable Generator.pdb
+C:\Users\Younes\Desktop\Programming-Project-NEA-master\Timetable Generator\Timetable Generator\bin\Debug\Timetable Generator.xml
