@@ -1,17 +1,12 @@
 ﻿Public Class Form3
     Dim x As Integer
     Dim z As Integer
-    Dim value As Integer = CInt(Math.Floor((3 - 1 + 1) * Rnd())) + 1
     Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     End Sub
-
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
-
-    End Sub
-
+    '''''''''''''''''''''''''''''''''''Selecting occupied times'''''''''''''''''''''''
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Button1.BackColor = Color.Red
-        Button1.Enabled = False
+        Button1.BackColor = Color.Red 'When clicked the button will turn red
+        Button1.Enabled = False 'The button will be disabled
         x = x + 1
         If (42 - (Form2.y * Form2.TextBox1.Text)) = x Then
             MsgBox("You have reached the limit")
@@ -26,7 +21,6 @@
         If (42 - (Form2.y * Form2.TextBox1.Text)) = x Then
             MsgBox("You have reached the limit")
             Label1.Visible = False
-
         End If
     End Sub
 
@@ -361,30 +355,7 @@
         If (42 - (Form2.y * Form2.TextBox1.Text)) = x Then
             MsgBox("You have reached the limit")
             Label1.Visible = False
-
         End If
-
-
-    End Sub
-
-    Private Sub TextBox12_TextChanged(sender As Object, e As EventArgs) Handles TextBox12.TextChanged
-
-    End Sub
-
-    Private Sub TextBox11_TextChanged(sender As Object, e As EventArgs) Handles TextBox11.TextChanged
-
-    End Sub
-
-    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged
-
-    End Sub
-
-    Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox9.TextChanged
-
-    End Sub
-
-    Private Sub TextBox8_TextChanged(sender As Object, e As EventArgs) Handles TextBox8.TextChanged
-
     End Sub
 
     Private Sub Button40_Click(sender As Object, e As EventArgs) Handles Button40.Click
@@ -393,7 +364,6 @@
         If (42 - (Form2.y * Form2.TextBox1.Text)) = x Then
             MsgBox("You have reached the limit")
             Label1.Visible = False
-
         End If
     End Sub
 
@@ -454,10 +424,7 @@
             Label1.Visible = False
         End If
     End Sub
-
-    Private Sub Button43_Click(sender As Object, e As EventArgs)
-    End Sub
-
+    ''''''''''''''''''''''''''''''''''''''''''''''''''''Placing subjects
     Private Sub Button44_Click(sender As Object, e As EventArgs) Handles Button44.Click
 
         Dim buttons() As Button = {
@@ -469,16 +436,16 @@
             Button26, Button27, Button28, Button29, Button30, 
             Button31, Button32, Button33, Button34, Button35, 
             Button36, Button37, Button38, Button39, Button40, 
-            Button41, Button42, Button7, Button8, Button9}
-        For i = 0 To 42
+            Button41, Button42, Button7, Button8, Button9} 'Declares an array containing all buttons within the table
+        For i = 0 To 42 'A for loop ranging through all the buttons within the table
             buttons(i).ForeColor = Color.Black
-            If buttons(i).BackColor = Color.Red Then
-            Else
-                Dim val As Integer = Int(Rnd() * 3) + 1
-                buttons(i).Text = Form2.ListBox1.Items.Item(val)
+        If buttons(i).BackColor = Color.Red Then 'If the buttons are red meaning that they are busy then nothing will be amended
+        Else 'However if the button is not red  
+            Dim val As Integer = Int(Rnd() * 3) + 1 'Generates a random so that subjects are randomly placed
+            buttons(i).Text = Form2.ListBox1.Items.Item(val) 'Places a random subject by retrieving the subject from the listbox in form2
             End If
         Next
-        For i = 0 To 42
+    For i = 0 To 42 'Loops through all buttons and disables them.
             buttons(i).ForeColor = Color.Black
             buttons(i).Enabled = False
         Next
@@ -487,12 +454,12 @@
         Label1.Visible = False
 
     End Sub
-
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''Takes a picture of the timetable generated
     Private Sub Button43_Click_1(sender As Object, e As EventArgs) Handles Button43.Click
         Dim frm = Form.ActiveForm
-        Using bmp = New Bitmap(frm.Width, frm.Height)
-            frm.DrawToBitmap(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height))
-            bmp.Save("C:\Users\A\Desktop\" + Form1.TextBox4.Text + ".png")
+Using bmp = New Bitmap(frm.Width, frm.Height) 'Retrieves the width and height of the form
+frm.DrawToBitmap(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height)) 'Draws a picture using the dimensions of the program
+bmp.Save("C:\Users\A\Desktop\" + Form1.TextBox4.Text + ".png") 'Saves it to the users desktop
         End Using
     End Sub
 End Class
